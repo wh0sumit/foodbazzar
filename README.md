@@ -2,7 +2,7 @@
 --- 
 ## ABOUT ❤️‍🔥
 
-#### In this application, You can simply find meals
+#### In this application, You can simply find your meals and see some instructions about your meal like ingredients and you can also watch a video.
 
 ### HOW TO USE 🕹️ 
 
