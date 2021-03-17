@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="icon.png" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            background: rgb(0, 36, 13);
+            background: linear-gradient(212deg, rgba(0, 36, 13, 1) 0%, rgba(9, 121, 36, 1) 35%, rgba(0, 255, 140, 1) 100%);
+            background-repeat: no-repeat;
+
+        }
+
+        .font {
+            font-family: 'Syne Mono', monospace;
+        }
+
+        .box {
+            margin-top: 10rem;
+
+        }
+
+    </style>
+    <title>Food Bazzar</title>
+</head>
+
+<body class="text-light">
+
+    <div class=" text-center box font">
+
+        <h1> Find Your Meal 🥘</h1>
+        <div class="row g-3 justify-content-center">
+
+            <div class="col-auto">
+                <input type="text" class="form-control rounded-pill" placeholder="Enter Your Meal Name">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-light mb-3 find-meal rounded-pill px-4">Find 🔍</button>
+            </div>
+        </div>
+    </div>
+    <div class="meals d-flex justify-content-center row mx-2">
+
+
+    </div>
+
+
+    <footer class="footer mt-auto py-3 bg-light w-100 font">
+        <div class="result border-0 text-dark col-auto p-2">
+            <h6 class="text-center ">Made With ❤️ By ~ <a href="https://wh0sumit.github.io/" class="text-decoration-none" target="_blank">Sumit Kumar Singh</a></h6>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
